@@ -12,6 +12,7 @@ public class CustomMediaRecorder {
     private MediaRecorder mediaRecorder;
     private File outputFile;
     private CurrentRecordingStatus currentRecordingStatus = CurrentRecordingStatus.NONE;
+    private int recordingTime;
 
     public CustomMediaRecorder(Context context) throws IOException {
         this.context = context;
